@@ -2,8 +2,6 @@
 
 Fn functions to implement a simple [Slack Bot](https://api.slack.com/bot-users)
 
-![](images/bot-test.jpg)
-
 ## step 0
 
 - `git clone https://github.com/abhirockzz/fn-slack-bot-sample`
