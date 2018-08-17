@@ -5,7 +5,7 @@ Fn functions to implement a simple [Slack Bot](https://api.slack.com/bot-users)
 ## step 0
 
 - `git clone https://github.com/abhirockzz/fn-slack-bot-sample`
-- make sure you have Fn installed on an infra which can be accessed from public internet (e.g. VM), or use ngrok on your local machine
+- make sure you have Fn installed on an infra which can be accessed from public internet (e.g. VM), or use [ngrok](https://api.slack.com/tutorials/tunneling-with-ngrok) on your local machine
 
 ## Handle slack verification challenge function
 
