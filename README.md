@@ -1,6 +1,6 @@
 # Fn Slack Bot
 
-**Reference** - https://api.slack.com/bot-users
+A Fn function to implement a [Slack Bot](https://api.slack.com/bot-users)
 
 ## step 0
 
