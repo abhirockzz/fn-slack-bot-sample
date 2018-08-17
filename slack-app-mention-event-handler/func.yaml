@@ -1,0 +1,10 @@
+name: slack-app-mention-event-handler
+type: async
+version: 0.0.1
+runtime: java
+cmd: io.fnproject.example.FnSlackBot::handleEvent
+format: http
+path: /service
+config:
+  SLACK_VERIFICATION_TOKEN: <to be filled>
+  SLACK_BOT_OAUTH_TOKEN: <to be filled>

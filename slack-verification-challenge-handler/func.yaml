@@ -1,0 +1,6 @@
+name: slack-verification-challenge-handler-func
+version: 0.0.1
+runtime: java
+cmd: io.fnproject.example.SlackURLVerificationChallengeHandler::handleVerificationChallenge
+format: http
+path: /service
