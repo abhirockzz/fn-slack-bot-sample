@@ -1,6 +1,8 @@
 # Fn Slack Bot
 
-Fn functions to implement a [Slack Bot](https://api.slack.com/bot-users)
+Fn functions to implement a simple [Slack Bot](https://api.slack.com/bot-users)
+
+![](images/bot-test.jpg)
 
 ## step 0
 
