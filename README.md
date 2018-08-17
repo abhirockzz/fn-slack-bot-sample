@@ -64,7 +64,7 @@ For the next steps, refer section **3. Installing the bot to a workspace** on [t
 ## Deploy the bot function
 
 - `cd slack-app-mention-event-handler`
-- update the `SLACK_VERIFICATION_TOKEN` and `SLACK_BOT_OAUTH_TOKEN` in the `config` section with the values you saved in the previous step
+- update the `SLACK_VERIFICATION_TOKEN` and `SLACK_BOT_OAUTH_TOKEN` in the `config` section in `func.yaml` with the values you saved in the previous step
 - deploy the function - `fn -v deploy --app fnbot`. Note that this will override the challenge verification function because
 	- challenge verification is a `one-time` process and 
 	- once you configure the request URL, Slack will send all your subscribed events to the same endpoint/URL i.e. you cannot change it
