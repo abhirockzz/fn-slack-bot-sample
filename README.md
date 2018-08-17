@@ -7,11 +7,13 @@
 - `git clone https://github.com/abhirockzz/fn-slack-bot-sample`
 - make sure you have Fn installed on an infra which can be accessed from public internet (e.g. VM), or use ngrok on your local machine
 
-## Handle slack verification challenge
+## Handle slack verification challenge function
 
-Docker config
+Start Fn server - `fn start`
 
-- `docker login`
+From a different terminal, configure Docker
+
+- `docker login` (use your docker registry credentials)
 - `export FN_REGISTRY=<docker repository>`
 
 deploy the function to respond to slack verification challenge
